@@ -1,9 +1,13 @@
 # benchmarking
 
 import polars as pl
+
 import time
+
 import pathlib
+
 s = time.time()
+
 
 df = pl.read_csv("1MILLION-ROWS.CSV")
 
