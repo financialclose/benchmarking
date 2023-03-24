@@ -30,7 +30,9 @@ q = pl.concat(
 )
 
 path: pathlib.Path = "Combine.csv"
+
 q.write_csv(path, sep=",")
 
 e = time.time()
+
 print("Polars Loading Time = {}".format(e-s))
