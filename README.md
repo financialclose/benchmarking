@@ -5,7 +5,7 @@ import time
 import pathlib
 s = time.time()
 
-df = pl.read_csv("10MILLION-ROWS.CSV")
+df = pl.read_csv("1MILLION-ROWS.CSV")
 
 q = pl.concat(
     [
