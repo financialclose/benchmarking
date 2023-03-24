@@ -1,6 +1,6 @@
 # benchmarking
 
-This script help to expand 1 Million Rows to 10 Million Rows. If requres 1 billion rows, rename pl.read_csv("1MILLION-ROWS.CSV") and path: pathlib.Path = "Combine.csv", do it again and again, you can get 100 Million rows and then 1 Billion rows.
+This script help to expand 1 million Rows to 10 million Rows. If requres 1 billion rows, rename pl.read_csv("1MILLION-ROWS.CSV") and path: pathlib.Path = "Combine.csv", do it again and again, you can get 100 Million rows and then 1 billion rows.
 
 import polars as pl
 
