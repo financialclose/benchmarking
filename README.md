@@ -39,4 +39,4 @@ q.write_csv(path, sep=",")
 
 e = time.time()
 
-print("Polars Loading Time = {}".format(e-s))
+print("Polars Processing Time = {}".format(e-s))
