@@ -40,3 +40,6 @@ q.write_csv(path, sep=",")
 e = time.time()
 
 print("Polars Processing Time = {}".format(e-s))
+
+#About Peaks
+https://www.linkedin.com/in/max01/recent-activity/all/
